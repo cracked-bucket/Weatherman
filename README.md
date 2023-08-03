@@ -1,0 +1,2 @@
+# Weatherman
+Detects weather patterns
