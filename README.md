@@ -4,11 +4,11 @@ A program that uses a jetson nano and a webcam that's capable of viewing and cla
 
 ![A Foggy Day](https://wpcdn.us-east-1.vip.tn-cloud.net/www.wmdt.com/content/uploads/2021/01/fog-1.jpg)
 
-#The Algorithm
+## The Algorithm
 
 Images were all taken from this dataset: https://www.kaggle.com/datasets/jehanbhathena/weather-dataset Resnet will store all the files within 18 layers of classification. When a command is ran to classify an image, imagenet will parse through the command looking for keywords. It will then load the recognition network, and then scans through the image, capturing each individual frame and processing it through its algorithm. Once it does this, the program will classify the image, determines the appropriate class labels from labels.txt to input into the the title, renders the image, then updates the title bar and status to match the classification progress to the final result. Once the classification is completed, the program will exit out of the system.
 
-#Running This Project
+## Running This Project
 
 Assuming you have a jetson nano connected to wifi as well as a webcam, follow these steps:
 
